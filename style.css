@@ -1,0 +1,488 @@
+/* this is first css */
+body{
+    margin:0 60px 0 60px;
+  }
+  
+  #body-content{
+    float:left;
+    width:100%;
+  }
+  #header {
+      float:left;
+      width:100%;
+      overflow: hidden;
+      background-color:white;
+      display:flex;
+      flex-direction: row;
+        flex-wrap: wrap; 
+  
+    }
+  
+    .header-img {
+        width: 9vw;
+        height: 9vw;
+        padding:25px 0 10 0px ;
+    }
+  
+    .header-left {
+      width:18%;
+      order:1;
+      
+    }
+  
+    .header-mid {
+      width:70%;
+      color: black;
+      text-align: left;
+      font-size: 6vw;
+      padding-top: 50px;
+      order:2;
+      flex-wrap: nowrap;
+  }
+  .line1{
+    width:100%;
+    border:1px solid lightgray;
+    border-width: 4px;
+    
+    order:3;
+  }
+  
+  .nav-bar {
+      width: 100%;
+      background-color:white;
+      overflow: auto;
+      order:4;
+      margin-bottom: 20px;
+    }
+  
+    .nav-bar a {
+      float: left;
+      padding:10px;
+      color: dimgray;
+      text-decoration: none;
+      font-size: 17px;
+      width: 20%;
+      text-align: center;
+    }
+    #body-content .news-headline {
+      padding: 2px;
+      color: dimgray;
+      font-size: 16px; 
+    }
+    #p1 {
+        font-size: 16px;
+        text-align:left;
+    }
+    #p3{
+      text-align:right;
+      font-size: 16px;
+    }
+    #body-content .news-headline .news-headline-p {
+        padding: 2px;
+    }
+    
+      #body-content .relative {
+        position: relative;
+       max-width: 100%;
+        
+      } 
+  
+      .main-img {
+        width: 100%;
+        height: 450px; 
+        object-fit: cover;
+        object-position: 0px -150px;
+      }
+      .absolute {
+        position: absolute;
+        background-color: white;
+        color:silver;
+        width:100%;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        bottom:0px; 
+      }
+      .line{
+        border:1px solid lightgray;
+        border-width: 4px;
+      }
+      
+  
+      table,th,td{
+       
+        text-align: center;
+        border-collapse:collapse; 
+        
+        
+      }
+      .team-detail-tab {
+        width: 100%;
+        height: 52%;
+        color:gray;
+      }
+      strong {
+        color: black;
+      }
+  
+      .news-disptn-img {
+        width: 150px;
+        height: 100px;
+        float: left;
+        padding-right: 25px;
+      }
+      #body-content .news-disptn .news-disptn-expln {
+        text-align: justify;
+        color:dimgray;  
+      }
+      #body-content .news-disptn .news-disptn-heading {
+        font-size: 16px;
+      }
+  
+      .weather {
+        display:flex;
+        flex-direction: row;
+        justify-content: center;
+        flex-wrap:wrap;
+      }
+      .weather div {
+        width:20%;
+        height:auto;
+      }
+     .img-wheather {
+        width: 20%;
+        height: 18vw;
+      }
+      .tody-weather-img {
+          width:27%;
+          height:18vw;
+      }
+
+      .weather-day,.deg-weather {
+        text-align: center;
+  
+      }
+      .tody-weather {
+        justify-content: left;
+      }
+  
+      #weather-loc {
+        font-size: 24px;
+        font-family: sans-serif;
+        color: dimgray;
+        margin-bottom: 0px;
+  
+      }
+      #weather-status{
+        color: dimgray;
+        text-align: top;
+        margin: 0px;
+      }
+      #deg-larg{
+        font-size:5vw;
+        text-align:  left;
+        padding-top: 3%;
+        
+      }
+
+      .deg-cel {
+        font-size:2.5vw;
+        text-align:  left;
+        padding-top: 8%;
+      }
+  
+       .footer {
+        clear: both;
+        position:relative;
+        bottom: 200px;
+        top: 50px;
+        border-bottom: 2px solid dimgray;
+        width: 100%;
+        padding-top: 20px;
+        margin-top: -100px;
+        margin-bottom: 100px;
+         
+        }
+      .footer a {
+          float: left;
+      padding: 12px;
+      color: dimgray;
+      text-decoration: none;
+      font-size: 17px;
+      width: 22%;
+  
+      
+    }
+  
+    .line1{
+      border:1px solid lightgray;
+      border-width: 2px;
+    }
+  
+    .table-news-head{
+      width:100%;
+    }
+    .div-letest-more{
+      display: flex;
+    }
+
+    .letest{
+        font-size: 22px;
+         flex:1;
+         text-align: left;
+    }
+  
+    .more{
+        font-size:22px;
+        flex:1;
+            text-align: right;
+    }
+  
+  
+    @media (min-width: 700px) and (max-width: 1000px){
+      #line1-first{
+        width:100%;
+        order:3;
+      }
+      #tab-weather{
+        width: 100%;
+        height: 30%;
+      }
+     .img-wheather{
+        width: 6vw;
+        height: 6vw;
+      }
+      #deg-larg{
+        font-size:2vw;
+        text-align:  left;
+        padding-top: 10px;
+      }
+
+      .deg-cel {
+        font-size:2.5vw;
+        text-align:  left;
+        padding-top: 2%;
+      }
+  
+      #body-content{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+      }
+      
+      .relative{
+        width :60%;
+        order:1;
+        height:auto;
+  
+      }
+      .main-img {
+        height:auto;
+        object-position: 0px 0px;
+      
+      }
+      .div-letest-more{
+        width:100%;
+        order:3;
+      }
+      
+      #body-content .news-headline {
+        width:100%;
+        order:4;
+        font-size: 16px; 
+      }
+  
+      .team-detail{
+        width:100%;
+        order:5;
+      }
+      .tab-head {
+        background-color: slategrey;
+        color: white;
+      }
+  
+      .absolute{
+        background-color: black;
+        color: white;
+        bottom: 0px;
+        opacity:0.5;
+      }
+      .absolute h1{
+        font-size: 18px;
+      }
+      .absolute p {
+        font-size: 14px; 
+  
+      }
+  
+  
+      .team-detail-tab {
+        height: 40%;
+        font-size: 14px;
+      }
+  
+      .tab-td {
+        background-color: gainsboro;
+      }
+  
+      .weather-div{
+        width :38%;
+        margin-left: 2%;
+        order:2;
+        flex-wrap: nowrap;
+      }
+
+      .tody-weather-img {
+        width:7vw;
+        height:7vw;
+    }
+  
+      #div-letest-more1{
+        width:100%;
+        order:6;
+      }
+      .line1{
+        width:100%;
+        order:7;
+      }
+      .news-disptn{
+        width:100%;
+        order:8;
+      }
+  
+      
+     
+  
+  
+       
+      /*.body-content :nth-child(1) { order: 1; }
+      .body-content :nth-child(2) { order: 3; }
+      .body-content :nth-child(3) { order: 4; }
+      .body-content :nth-child(4) { order: 5; }
+      .body-content :nth-child(5) { order: 2; }
+      .body-content :nth-child(6) { order: 6; }
+      .body-content :nth-child(7) { order: 7; }*/
+      
+      
+    }
+  
+    @media  (min-width: 0px) and (max-width: 699px){
+        
+      #header {
+        float:left;
+        width:100%;
+        overflow: hidden;
+        background-color:white;
+        display:flex;
+        flex-direction: row;
+          flex-wrap: wrap; 
+    
+      }
+    
+      .header-img {
+          
+          width: 9vw;
+          height: 9vw;
+          padding:25px 0px 10px 0px ;
+      }
+      .header-left {
+        width:20%;
+        order:1;
+        
+      }
+    
+      .header-mid {
+        width:60%;
+        color: black;
+        text-align: left;
+        font-size: 4.5vw;
+        padding-top: 30px;
+        order:2;
+        flex-wrap: nowrap;
+    }
+    .mob-menu{
+        width:3vw;
+        float: left;
+        margin-top: 30px;
+        margin-left:20px;
+        order:3
+    }
+  
+    #line1-first {
+      
+      display:none;
+    }
+    
+    
+       #header .nav-bar{
+          display: none;
+        }
+        
+        .absolute{
+          position: absolute;
+          background-color: black;
+          color:silver;
+          width:100%;
+          height: auto;
+          font-family: Verdana, Geneva, Tahoma, sans-serif;
+          bottom:0px;
+          opacity:0.5;
+        }
+        .absolute h1{
+          font-size: 4vw;
+  
+        }
+  
+        .absolute p {
+          font-size: 2vw; 
+  
+        }
+        .main-img {
+          height: auto;
+          object-position: 0px 0px;
+        }
+  
+        #body-content .news-headline {
+          font-size: 14px; 
+        }
+        
+     .mob-menu .mob1 {
+        width: 5vw;
+        height: 2px;
+        background-color: black;
+        margin-top: 6px;
+      }
+
+      .img-wheather {
+        width: 20%;
+        height: 16vw;
+    }
+  
+      .team-detail-tab {
+        height: 40%;
+        font-size: 14px;
+      }
+      
+      .tab-head {
+        background-color: slategrey;
+        color: white;
+      }
+  
+      .tab-td {
+        background-color: gainsboro;
+      }
+  
+      #body-content .news-disptn .news-disptn-expln {
+        font-size: 12px;
+      }
+      #body-content .news-disptn .news-disptn-heading {
+        font-size: 14px;
+      }
+  
+    
+        
+  
+  
+        
+        
+  
+  
+    }
